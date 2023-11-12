@@ -1,0 +1,134 @@
+.header-mother-box {
+    background-color: chartreuse;
+    max-width: 90rem;
+    min-height: 5rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.header-son-box {
+    max-width: 73.125rem;
+    min-height: 2.5rem;
+    background-color: chocolate;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-logo-box {
+    max-width: 11.1875rem;
+    min-height: 1.1875;
+    background-color: blueviolet;
+
+
+
+}
+
+.logo {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.navigation-box {
+    max-width: 32.9375rem;
+    min-height: 0.875rem;
+    background-color: cornflowerblue;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    min-height: 0.875rem;
+}
+
+.ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.875rem;
+    background-color: rgb(0, 255, 179);
+
+
+}
+
+.li {
+    font-size: 0.75rem;
+    line-height: 1;
+    letter-spacing: 1;
+    color: #141A28;
+    font-family: 'Nunito';
+    border-radius: 6px;
+    background-color: brown;
+    transition: all;
+    transition-duration: 0.5s;
+
+}
+
+.li:hover {
+    transform: scale(2.2);
+    box-shadow: 10px 10px 30px;
+}
+
+.form-teg {
+    display: flex;
+    max-width: 8rem;
+    background-color: blueviolet;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.header-icon {
+    max-width: 1.125rem;
+    min-height: 1.125rem;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.header-icon:hover {
+    transform: scale(2.2);
+}
+
+.icon-header {
+    object-fit: cover;
+    width: 100%;
+}
+
+.dorm {
+    display: none;
+}
+
+.sing-in {
+    border-radius: 40px;
+    background-color: #53AA51;
+    max-width: 5.875rem;
+    height: 2.5rem;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    transition: all;
+    transition-duration: 0.5s;
+
+}
+
+.sing-in:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 30px;
+}
+
+.header-h3 {
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-size: 12px;
+    line-height: 16px;
+}
