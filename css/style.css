@@ -3,12 +3,13 @@
     background-color: #FFFFFF;
     padding-top: 80px;
 }
+
 .header {
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
-    
+
 }
 
 .header-mother-box {
@@ -104,11 +105,12 @@
 .icon-header {
     object-fit: cover;
     width: 100%;
-    
+
 }
+
 .form.newform {
     display: block;
-    
+
 }
 
 .form {
@@ -139,18 +141,129 @@
     font-size: 12px;
     line-height: 16px;
 }
-/* ! section1  */
+
+/* ! section 1  */
 .box-image {
     max-width: 73.125rem;
-    height:18.75rem;
+    height: 18.75rem;
     margin: auto;
     width: 100%;
     background-color: #53AA51;
     border-radius: 10px;
     margin-top: 12px;
 }
+
 .image-baner {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
+/* ! section 2 */
+.mother-box {
+    max-width: 73.625rem;
+    background-color: #53AA51;
+    min-height: 36.375rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 64px;
+    display: flex;
+}
+
+.left-box-mother {
+    background-color: cornflowerblue;
+    max-width: 34.75rem;
+    min-height: 36.375rem;
+    width: 100%;
+}
+
+.image-box2 {
+    max-width: 34.75rem;
+    height: 21.9375rem;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.section-2-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.left-box-bottom {
+    max-width: 34.75rem;
+    height: 12.9375rem;
+    background-color: chocolate;
+    margin-top: 24px;
+}
+
+.section-2-h3 {
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #141A28;
+    font-family: 'Nunito';
+    max-width: 34.38rem;
+    background-color: rgb(237, 100, 230);
+    width: 100%;
+}
+
+.personal-info-box {
+    max-width: 17.8125rem;
+    height: 3rem;
+    background-color: darkcyan;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-info {
+    max-width: 3.9375rem;
+    height: 3rem;
+    transform: rotate(180);
+
+}
+
+.no-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+}
+
+.section-2-pharagrap1 {
+    background-color: #53AA51;
+    color: #141A28;
+    font-family: 'Nunito';
+    font-size: 14px;
+    line-height: 160%;
+
+}
+
+.section-2-pharagrap2 {
+    background-color: blueviolet;
+    color: #7E7F81;
+    font-family: 'Nunito';
+    font-size: 14px;
+    line-height: 160%;
+}
+
+/* ! section 2 right box  */
+/* .right-box-mother {
+    display: grid;
+    grid-template-columns:repeat( 20px);
+    grid-template-rows:repeat(2, 150px);
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto;
+    row-gap: 64px;
+    column-gap: 10px;
+} */
+
+/* .right-box {
+    max-width: 550px;
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+} */
