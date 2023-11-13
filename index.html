@@ -11,12 +11,12 @@
     <title>Document</title>
 </head>
 
-<body>
-    <header>
+<body class="body">
+    <header class="header">
         <div class="header-mother-box">
             <div class="header-son-box">
                 <div class="header-logo-box">
-                    <img class="logo" src="image/LOGO.svg" alt="log">
+                    <a href="index.html"><img class="logo" src="image/LOGO.svg" alt="log"></a>
                 </div>
                 <div class="navigation-box">
                     <nav class="nav">
@@ -32,32 +32,29 @@
                     </nav>
                 </div>
                 <div class="form-teg">
-                    <form class="dorm" action="">
+                    <!-- აიქონზე დაჭერის შემდეგ გამოჩნება ეს -->
+                    <form class="form" id="form1" action="">
                         <input type="text" placeholder="search">
-                        <input  type="button" value="submit">
+                        <input type="button" value="search">
                     </form>
-                    <div class="header-icon">
-                        <img class="icon-header" src="image/svg.1.icon.svg" alt="">
+                    <!-- ამას რომ დავაწვები მინდა რომ გამოჩნდეს ფორმ ტეგები -->
+                    <div class="header-icon" id="icon"> 
+                        <img class="icon-header" src="image/svg.1.icon.svg" alt="icon.image">
                     </div>
                     <div class="sing-in">
                         <h3 class="header-h3">sign in</h3>
-        
+
                     </div>
-
                 </div>
-        
-
             </div>
-           
         </div>
-
-
-
-
-        </div>
-
     </header>
     <main>
+        <section class="section-1">
+            <div class="box-image">
+                <img class="image-baner" src="image/baner.image.svg" alt="baner">
+            </div>
+        </section>
 
     </main>
     <footer>
@@ -65,5 +62,6 @@
     </footer>
 
 </body>
+<script src="js/form.js"></script>
 
 </html>
