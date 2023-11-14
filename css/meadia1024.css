@@ -1,0 +1,25 @@
+@media (min-width:750px) and (max-width:1024px) {
+    .header-mother-box {
+        max-width: 64rem;
+        background-color: blueviolet;
+        min-height:3rem;
+    }
+    .header-logo-box {
+        max-width: 9.0625rem;
+
+    }
+    .logo {
+        object-fit: cover;
+        width: 100%;
+    }
+    .navigation-box  {
+        max-width: 22.75rem;
+    }
+    .sing-in {
+        max-width: 4.875rem;
+        height: 2rem;
+    }
+    .form-teg {
+        max-width: 10rem;
+    }
+}

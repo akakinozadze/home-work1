@@ -41,7 +41,7 @@
 
 .logo {
     object-fit: cover;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 6px;
 }
 
@@ -105,18 +105,29 @@
 .icon-header {
     object-fit: cover;
     width: 100%;
-
 }
 
 .form.newform {
     display: block;
-
 }
 
 .form {
     display: none;
 }
-
+.input1 {   
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 15px;
+}
+.input2 {
+    margin-top: 4px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+    box-shadow: 5px 5px 15px;
+}
 .sing-in {
     border-radius: 40px;
     background-color: #53AA51;
@@ -141,7 +152,15 @@
     font-size: 12px;
     line-height: 16px;
 }
-
+.bar {
+    max-width: 22px;
+    height: 22px;
+    display: none;
+}
+.burger-bar {
+    width: 100%;
+    object-fit: cover;
+}
 /* ! section 1  */
 .box-image {
     max-width: 73.125rem;
