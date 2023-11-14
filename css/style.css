@@ -127,6 +127,11 @@
     outline: none;
     background-color: burlywood;
     box-shadow: 5px 5px 15px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.input2:hover {
+    transform: scale(1.1);
 }
 .sing-in {
     border-radius: 40px;
@@ -155,7 +160,7 @@
 .bar {
     max-width: 22px;
     height: 22px;
-    display: none;
+    /* display: none; */
 }
 .burger-bar {
     width: 100%;

@@ -1,0 +1,26 @@
+@media (min-width:300px) and (max-width:750px) {
+    .navigation-box {
+        display: none;
+    }
+    .sing-in {
+        display: none;
+    }
+    .header-son-box {
+        flex-direction: column;
+        background-color: blue;
+        max-width: 46.875rem;
+    } 
+    .navigation-box.newnavigation {
+        display: block;
+        background-color: aqua;
+        height: 80px;
+    }
+    .nav {
+        margin-left: 150px;
+        border-bottom: none;
+    }
+    .ul {
+        flex-direction: column;
+        width: 100%;
+    }
+}

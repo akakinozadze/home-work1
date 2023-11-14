@@ -22,4 +22,10 @@
     .form-teg {
         max-width: 10rem;
     }
+    .form {
+       max-width: 6.5rem;
+    }
+    .input1 {
+        width: 100%;
+    }
 }
