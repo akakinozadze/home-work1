@@ -91,20 +91,20 @@
 
 }
 
-.header-icon {
-    max-width: 1.125rem;
-    min-height: 1.125rem;
+.header-icon { 
     transition: all;
     transition-duration: 0.3s;
 }
 
 .header-icon:hover {
-    transform: scale(1.);
+    transform: scale(1.1);
 }
 
 .icon-header {
     object-fit: cover;
     width: 100%;
+    max-width: 1.125rem;
+    min-height: 1.125rem;
 }
 
 .form.newform {
@@ -113,14 +113,16 @@
 
 .form {
     display: none;
-   
+
 }
-.input1 {   
+
+.input1 {
     border-radius: 6px;
     border: none;
     outline: none;
     box-shadow: 5px 5px 15px;
 }
+
 .input2 {
     margin-top: 4px;
     border-radius: 6px;
@@ -131,9 +133,11 @@
     transition: all;
     transition-duration: 0.2s;
 }
+
 .input2:hover {
     transform: scale(1.1);
 }
+
 .sing-in {
     border-radius: 40px;
     background-color: #53AA51;
@@ -158,15 +162,25 @@
     font-size: 12px;
     line-height: 16px;
 }
+
 .bar {
-    max-width: 22px;
-    height: 22px;
+    max-width: 32px;
+    height: 32px;
     display: none;
+    background-color: #53AA51;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-top: 4px;
 }
+
 .burger-bar {
     width: 100%;
     object-fit: cover;
+    max-width: 22px;
+    height: 22px;
 }
+
 /* ! section 1  */
 .box-image {
     max-width: 73.125rem;
