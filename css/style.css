@@ -295,42 +295,67 @@
 }
 
 .right-box {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .text {
     max-width: 288px;
     width: 100%;
     margin-left: 10px;
 }
-.box-image1 {
-    
-}
+
+.box-image1 {}
+
 .image2 {
     object-fit: cover;
     width: 100%;
     max-width: 230px;
     border-radius: 10px;
     height: 100%;
-    
+
 }
+
 .section-21-h3 {
     font-size: 18px;
     font-family: 'Nunito';
 
 }
+
 .section-2-pharagrap3 {
     font-size: 14px;
     color: #141A28;
     font-family: 'Nunito';
 }
+
 .section-2pharagrap-5 {
     color: #7E7F81;
     font-size: 14px;
     font-family: 'Nunito';
 }
+
 .span {
-   display: flex;
-   margin-top: 12px;
-  
+    display: flex;
+    margin-top: 12px;
+
+}
+
+/* ! section 3  */
+.section-3-mother {
+    max-width: 1240px;
+    background-color: #53AA51;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    row-gap: 10px;
+}
+.section-3-right-box {
+    background-color: aquamarine;
 }
