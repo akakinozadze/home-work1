@@ -41,7 +41,6 @@
 
 .logo {
     object-fit: cover;
-    /* width: 100%; */
     border-radius: 6px;
 }
 
@@ -77,8 +76,12 @@
 }
 
 .li:hover {
-    transform: scale(2.2);
     box-shadow: 10px 10px 30px;
+
+}
+
+.li:active {
+    background-color: red;
 }
 
 .form-teg {
@@ -91,7 +94,7 @@
 
 }
 
-.header-icon { 
+.header-icon {
     transition: all;
     transition-duration: 0.3s;
 }
@@ -123,6 +126,10 @@
     box-shadow: 5px 5px 15px;
 }
 
+.input1:focus {
+    color: red;
+}
+
 .input2 {
     margin-top: 4px;
     border-radius: 6px;
@@ -151,8 +158,12 @@
 
 }
 
+.sing-in:active {
+    background-color: red;
+}
+
 .sing-in:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     box-shadow: 10px 10px 30px;
 }
 
@@ -187,7 +198,6 @@
     height: 18.75rem;
     margin: auto;
     width: 100%;
-    background-color: #53AA51;
     border-radius: 10px;
     margin-top: 16px;
 }
@@ -201,8 +211,6 @@
 /* ! section 2 */
 .mother-box {
     max-width: 73.625rem;
-    background-color: #53AA51;
-    min-height: 36.375rem;
     margin: auto;
     width: 100%;
     margin-top: 64px;
@@ -210,9 +218,7 @@
 }
 
 .left-box-mother {
-    background-color: cornflowerblue;
     max-width: 34.75rem;
-    min-height: 36.375rem;
     width: 100%;
 }
 
@@ -231,8 +237,6 @@
 
 .left-box-bottom {
     max-width: 34.75rem;
-    height: 12.9375rem;
-    background-color: chocolate;
     margin-top: 24px;
 }
 
@@ -242,14 +246,11 @@
     color: #141A28;
     font-family: 'Nunito';
     max-width: 34.38rem;
-    background-color: rgb(237, 100, 230);
     width: 100%;
 }
 
 .personal-info-box {
     max-width: 17.8125rem;
-    height: 3rem;
-    background-color: darkcyan;
     margin-top: 24px;
     display: flex;
     align-items: center;
@@ -260,27 +261,22 @@
     max-width: 3.9375rem;
     height: 3rem;
     transform: rotate(180);
-
 }
 
 .no-image {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    background-color: chocolate;
 }
 
 .section-2-pharagrap1 {
-    background-color: #53AA51;
     color: #141A28;
     font-family: 'Nunito';
     font-size: 14px;
     line-height: 160%;
-
 }
 
 .section-2-pharagrap2 {
-    background-color: blueviolet;
     color: #7E7F81;
     font-family: 'Nunito';
     font-size: 14px;
@@ -288,21 +284,53 @@
 }
 
 /* ! section 2 right box  */
-/* .right-box-mother {
+.right-box-mother {
     display: grid;
-    grid-template-columns:repeat( 20px);
-    grid-template-rows:repeat(2, 150px);
-    background-color: aqua;
+    grid-template-columns: minmax(50px, 550px);
+    grid-template-rows: repeat(3, 150px);
+    align-content: space-between;
     width: 100%;
-    height: 100%;
-    grid-template-columns: auto;
-    row-gap: 64px;
-    column-gap: 10px;
-} */
+    justify-content: end;
+    margin-left: 20px;
+}
 
-/* .right-box {
-    max-width: 550px;
+.right-box {
+display: flex;
+justify-content: space-between;
+}
+.text {
+    max-width: 288px;
     width: 100%;
-    height: 150px;
-    background-color: blueviolet;
-} */
+    margin-left: 10px;
+}
+.box-image1 {
+    
+}
+.image2 {
+    object-fit: cover;
+    width: 100%;
+    max-width: 230px;
+    border-radius: 10px;
+    height: 100%;
+    
+}
+.section-21-h3 {
+    font-size: 18px;
+    font-family: 'Nunito';
+
+}
+.section-2-pharagrap3 {
+    font-size: 14px;
+    color: #141A28;
+    font-family: 'Nunito';
+}
+.section-2pharagrap-5 {
+    color: #7E7F81;
+    font-size: 14px;
+    font-family: 'Nunito';
+}
+.span {
+   display: flex;
+   margin-top: 12px;
+  
+}

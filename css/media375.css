@@ -35,7 +35,7 @@
     .form {
         position: absolute;
         max-width: 180px;
-        margin-top: 70px;
+        margin-top: 78px;
         margin-left: 12px;
         
        
@@ -53,10 +53,9 @@
     }
     .navigation-box {
         position: absolute;
-        margin-top: 210px;
+        margin-top: 214px;
         width: 100%;
         max-width: 750px;
-        background-color: rgb(100, 237, 123);
         box-shadow: 10px 10px 30px;
     }
     .nav {
@@ -71,4 +70,35 @@
         align-content: space-between;
         margin-left: 15px;
     }
+    /* ! section 2 */
+    .mother-box {
+        flex-direction: column;   
+       
+    }
+    .left-box-mother {
+        margin: auto;
+    }
+    .section-2-h3 {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+    .right-box-mother  {
+        margin-top: 60px;
+        justify-content: center;
+        align-content: space-between;
+        row-gap: 20px;
+    }
+    .text {
+        margin-left: 10px;
+    }
+    .section-21-h3 {
+        font-size: 14px;
+    }
+    .section-2-pharagrap3  {
+        font-size: 10px;
+    }
+    .section-2pharagrap-5 {
+        font-size: 10px;
+    }
+
 }
