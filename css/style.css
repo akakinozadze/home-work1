@@ -163,7 +163,6 @@
 }
 
 .sing-in:hover {
-    /* transform: scale(1.1); */
     box-shadow: 10px 10px 30px;
 }
 
@@ -304,9 +303,6 @@
     width: 100%;
     margin-left: 10px;
 }
-
-.box-image1 {}
-
 .image2 {
     object-fit: cover;
     width: 100%;
@@ -343,19 +339,70 @@
 /* ! section 3  */
 .section-3-mother {
     max-width: 1240px;
-    background-color: #53AA51;
     width: 100%;
     margin: auto;
     margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../image/shutterstock_1418288240.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 8px;
+
    
 }
-
-.form {
+.form2 {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     row-gap: 10px;
+    width: 100%;
 }
-.section-3-right-box {
-    background-color: aquamarine;
+.lable1 {
+    font-size: 20px;
+    font-family: 'Nunito';
+    
+}
+.input6::placeholder {
+    color: red;
+}
+.input6 {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    
+}
+.submit-box {
+    margin-top: 10px;
+}
+.form11 {
+    max-width: 300px;
+    width: 100%;
+}
+.box-lable {
+    margin-top: 10px;
+}
+.form12 {
+    margin-top: 10px;
+}
+.submit {
+    border: none;
+    border-radius: 6px;
+    transition: all;
+    transition-duration: 0.2s;
+    background-color: burlywood;
+}
+.submit:active {
+    background-color: red;
+    color: #53AA51;
+}
+.box-gender {
+    margin-top: 10px;
+}
+.chous-your-name {
+    margin-top: 10px;
+}
+.box-birthday {
+    margin-top: 10px;
 }

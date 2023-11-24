@@ -122,41 +122,76 @@
         </section>
         <section class="section-3">
             <div class="section-3-mother">
-                <form class="form" action="">
-                    <label for="lable1">user name</label>
-                    <input type="text" name="firstname" id="lable1" placeholder="first name" required>
-                    <label for="lable2">last name</label>
-                    <input type="text" name="lastname" id="lable2" placeholder="last name" required>
-                    <label for="lable3">password</label>
-                    <input type="password" name="password" id="lable3" placeholder="password" required>
-                    <label for="lable4">Chous your universiti</label>
-                    <select name="" id="">  
-                        <option value="none" selected disabled hidden>select universiti</option>     
-                        <optgroup label="georgi">                        
+                <form class="form2" action="">
+                    <label class="lable1" for="lable1">user name</label>
+                    <input class="input6" type="text" name="firstname" id="lable1" placeholder="first name" required>
+                    <label class="lable1" for="lable2">last name</label>
+                    <input class="input6" type="text" name="lastname" id="lable2" placeholder="last name" required>
+                    <label class="lable1" for="lable3">password</label>
+                    <input class="input6" type="password" name="password" id="lable3" placeholder="password" required>
+                    <label class="lable1" for="lable4">Chous your universiti</label>
+                    <select name="" id="">
+                        <option value="none" selected disabled hidden>select universiti</option>
+                        <optgroup label="georgi">
                             <option value="seu">Seu</option>
                             <option value="gau">Gau</option>
                             <option value="javaxishvili">Javaxishvili</option>
                         </optgroup>
                         <optgroup label="EUR">
-                            <option value="ocsvord">Oqsvord</option>
-                            <option value="kembrij">kembrij</option>
+                            <option value="ocsvord">Oxford</option>
+                            <option value="kembrij">Cambridge</option>
 
                         </optgroup>
                     </select>
                     <div class="submit-box">
-                        <input type="submit" name="input3" id="last1">
-                        <input type="reset" name="input4" id="last2">   
+                        <input class="submit" type="submit" name="input3" id="last1">
+                        <input class="submit" type="reset" name="input4" id="last2">
+                        <input class="submit" type="button" value="registred">
+
                     </div>
                 </form>
-                <!-- <div class="section-3-right-box">
-                    <form action="">
-                        <label for="lable5">Chous your cantri</label>
-                        
-                    </form>
-    
-                </div> -->
+                <form class="form11" action="">
+
+                    <div class="box-lable">
+                        <div>
+                            <label class="lable1" for="Birthday">chous your birthday</label>
+                        </div>
+                        <div class="box-birthday">
+                            <input type="date" name="Birthday" id="Birthday1">
+                        </div>
+                        <div class="chous-your-name">
+                            <label class="lable1" for="jender">chous your jender</label>
+                        </div>
+                        <div class="box-gender">
+                            <input type="radio" name="universiti" id="universiti1" required>
+                            <label class="lable1" for="universiti">male</label>
+                            <input type="radio" name="universiti" id="universiti2" required>
+                            <label class="lable1" for="universiti">famale</label>
+                            <input class="submit" type="submit" name="" id="">
+                            <input class="submit" type="reset">
+
+                        </div>
+                    </div>
+
+                </form>
+                <form action="">
+                    <label class="lable1" for="input111">chous your country</label>
+                    <div class="form12">
+                        <input type="checkbox" name="input11" id="input7" required>
+                        <label class="lable1" for="input11">georgia</label>
+                        <input type="checkbox" name="input12" id="input8" required>
+                        <label class="lable1" for="input8">usa</label>
+                        <input type="checkbox" name="imput13" id="input9" required>
+                        <label class="lable1" for="input13">Portugal</label>
+                        <input class="submit" type="submit" name="" id="">
+                        <input class="submit" type="reset">
+                    </div>
+
+                </form>
+
+
             </div>
- 
+
 
         </section>
     </main>
