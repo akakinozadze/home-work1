@@ -303,6 +303,7 @@
     width: 100%;
     margin-left: 10px;
 }
+
 .image2 {
     object-fit: cover;
     width: 100%;
@@ -349,43 +350,59 @@
     background-size: cover;
     height: 100%;
     border-radius: 8px;
-
-   
 }
+
+/* .section-3-son-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 200px;
+
+} */
+
 .form2 {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     row-gap: 10px;
     width: 100%;
+    /* background-color: #53AA51; */
 }
+
 .lable1 {
     font-size: 20px;
     font-family: 'Nunito';
-    
+
 }
+
 .input6::placeholder {
     color: red;
 }
+
 .input6 {
     border: none;
     outline: none;
     border-radius: 4px;
-    
+
 }
+
 .submit-box {
     margin-top: 10px;
 }
+
 .form11 {
     max-width: 300px;
     width: 100%;
 }
+
 .box-lable {
     margin-top: 10px;
 }
+
 .form12 {
     margin-top: 10px;
 }
+
 .submit {
     border: none;
     border-radius: 6px;
@@ -393,16 +410,95 @@
     transition-duration: 0.2s;
     background-color: burlywood;
 }
+
 .submit:active {
     background-color: red;
     color: #53AA51;
 }
+
 .box-gender {
     margin-top: 10px;
 }
+
 .chous-your-name {
     margin-top: 10px;
 }
+
 .box-birthday {
     margin-top: 10px;
+}
+
+.mother {
+    display: flex;
+    margin: auto;
+    max-width: 1170px;
+    height: 434px;
+    background-color: #53AA51;
+    position: relative;
+
+}
+
+.section-4-left {
+    max-width: 586px;
+    height: 434px;
+    background-color: #F2BFAF;
+    position: absolute;
+    width: 100%;
+
+}
+
+.bacgraund {
+    position: absolute;
+    max-width: 584px;
+    height: 434px;
+    width: 100%;
+    background-color: #F2BFAF;
+    right: 0;
+}
+
+.image111 {
+    width: 261px;
+    /* height: 150px; */
+    position: absolute;
+    z-index: 12;
+    margin-top: 238px;
+    
+}
+
+.image1234 {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.image112 {
+    max-width: 261px;
+    /* height: 150px; */
+    position: absolute;
+    right: 0;
+    width: 100%;
+
+}
+
+.image12345 {
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.image113 {
+    max-width: 395px;
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    z-index: 120;
+    margin-top: 54px;
+    margin-left: 122px;
+}
+
+.image123 {
+    width: 100%;
+    object-fit: cover;
+
 }
